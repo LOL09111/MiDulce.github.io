@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Querida Dulce</title>
+  <style>
+    body {
+      background-image: url("https://images8.alphacoders.com/748/748446.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      position: relative;
+      z-index: 100;
+    }
+    
+    #container {
+      width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      animation: fade-in 1s ease-out;
+      position: relative;
+      z-index: 99;
+      opacity: .85;
+    }
+
+    #particles-js {
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      z-index: -1;
+    }
+
+    body {
+      background-color: #000;
+      color: #030303;
+      font-size: 18px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 300;
+      position: relative;
+      z-index: 99;
+    }
+    
+    h1 {
+      text-align: center;
+      color: #991708;
+      animation: heartbeat 1s infinite;
+    }
+    
+    p {
+      text-align: justify;
+    }
+    
+    @keyframes heartbeat {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    .raindrop {
+      position: absolute;
+      width: 1px;
+      height: 50px;
+      background-color: #fff;
+      animation: fall 1s linear infinite;
+    }
+    
+    .raindrop:nth-child(1) {
+      left: 10%;
+      animation-delay: 0s;
+    }
+    
+    .raindrop:nth-child(2) {
+      left: 20%;
+      animation-delay: 0.1s;
+    }
+    
+    .raindrop:nth-child(3) {
+      left: 30%;
+      animation-delay: 0.2s;
+    }
+    
+    .raindrop:nth-child(4) {
+      left: 40%;
+      animation-delay: 0.3s;
+    }
+    
+    .raindrop:nth-child(5) {
+      left: 50%;
+      animation-delay: 0.4s;
+    }
+    
+    .raindrop:nth-child(6) {
+      left: 60%;
+      animation-delay: 0.5s;
+    }
+    
+    .raindrop:nth-child(7) {
+      left: 70%;
+      animation-delay: 0.6s;
+    }
+    
+    .raindrop:nth-child(8) {
+      left: 80%;
+      animation-delay: 0.7s;
+    }
+    
+    .raindrop:nth-child(9) {
+      left: 90%;
+      animation-delay: 0.8s;
+    }
+    
+    @keyframes fall {
+      0% {
+        transform: translateY(-100px);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(600px);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+  <script src="particles.js"></script>
+  <div id="container">
+
+    <h1>Esteban y Dulce</h1>
+    <p>
+      <strong>Sábado, 24 de julio de 2023</strong>
+    </p>
+    
+    <p>
+      <strong>Dos seres destinados que se conocieron y descubrieron el amor que tenían para ellos dos, fueron pasando los días y con eso ellos solo querían pasar el rato charlando, contando todo de ellos, se sentían conectados nadie como ellos dos podrían entenderse.
+      </strong></p>
+    
+    <p>
+    <strong>Fue el comienzo de un gran amor, en el cual hay comprensión, cariño, aprecio, honestidad, dulzura, compromiso y el más importante y que relaciona todo esto, el "Amor".
+    </strong></p>
+    
+    <p>
+    <strong>Esto forma solo el querer estar juntos, tocar detalladamente el calor de ellos dos y pasar sus días apreciando la belleza de ellos dos, solo dando todo de ellos para así lograr que la llama de su amor nunca se apague.
+    </strong></p> 
+    <p></p>
+    <p>
+    <strong>Con esto te puedo decir que "Te amo" y deseo pasar el resto de mi vida a tu lado. Acepta mi corazón, con todo mi amor
+      <br>
+      <br>
+      Esteban.
+    </strong></p>
+    
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+    <div class="raindrop"></div>
+  </div>
+
+  <script src="particles.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
